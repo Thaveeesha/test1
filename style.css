@@ -420,7 +420,7 @@
             
             /* Fix carousel position for small mobile */
             .carousel-image {
-                bottom: 250px !important;
+                bottom: 200px !important;
             }
             
             .hero-image {
@@ -442,4 +442,5 @@
                 height: 60px;
             }
         }
+
 
