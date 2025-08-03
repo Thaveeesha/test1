@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Miniver&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Miniver&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
         
         * {
             margin: 0;
@@ -231,7 +231,7 @@
 
         .carousel-image {
             position: absolute;
-            bottom: -100px;
+            bottom: -150px;
             left: 50%;
             transform: translateX(-50%);
             width: 100%;
@@ -337,6 +337,11 @@
                 height: 300px;
             }
             
+            /* Fix carousel position for mobile */
+            .carousel-image {
+                bottom: -20px !important;
+            }
+            
             .hero-image {
                 width: 150px;
             }
@@ -410,6 +415,11 @@
             .hero-image-wraper {
                 max-width: 250px;
                 height: 250px;
+            }
+            
+            /* Fix carousel position for small mobile */
+            .carousel-image {
+                bottom: 0px !important;
             }
             
             .hero-image {
