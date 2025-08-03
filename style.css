@@ -1,5 +1,4 @@
-
- @import url('https://fonts.googleapis.com/css2?family=Miniver&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
         
         * {
             margin: 0;
@@ -368,7 +367,7 @@
             }
         }
 
-        @media (max-width: 720px) {
+        @media (max-width: 480px) {
             .section-content {
                 padding: 0 15px;
             }
@@ -418,9 +417,9 @@
                 height: 250px;
             }
             
-            /* Fix carousel position for small mobile */
+            /* Fix carousel position for small mobile - position it below the buttons */
             .carousel-image {
-                top:60px !important;
+                bottom: 20px !important;
             }
             
             .hero-image {
@@ -442,8 +441,3 @@
                 height: 60px;
             }
         }
-
-
-
-
-
