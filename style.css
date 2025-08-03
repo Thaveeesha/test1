@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Miniver&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Miniver&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
         
         * {
             margin: 0;
@@ -339,7 +339,7 @@
             
             /* Fix carousel position for mobile */
             .carousel-image {
-                bottom: -20px !important;
+                bottom: 50px !important;
             }
             
             .hero-image {
@@ -419,7 +419,7 @@
             
             /* Fix carousel position for small mobile */
             .carousel-image {
-                bottom: 0px !important;
+                bottom: 80px !important;
             }
             
             .hero-image {
