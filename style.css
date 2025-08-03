@@ -368,7 +368,7 @@
             }
         }
 
-        @media (max-width: 480px) {
+        @media (max-width: 768px) {
             .section-content {
                 padding: 0 15px;
             }
@@ -420,7 +420,7 @@
             
             /* Fix carousel position for small mobile */
             .carousel-image {
-                bottom: 160px !important;
+                bottom: 250px !important;
             }
             
             .hero-image {
@@ -442,3 +442,4 @@
                 height: 60px;
             }
         }
+
